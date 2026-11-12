@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agentforce Coworker - Live Webinar Demo Playbook</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --accent: #38bdf8;
+      --accent-hover: #0ea5e9;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --border: #334155;
+      --pill: #0284c7;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      background-color: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 30px 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h1 {
+      color: var(--accent);
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 12px;
+      margin-top: 0;
+    }
+    h2 {
+      color: #38bdf8;
+      margin-top: 36px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .badge {
+      background: var(--pill);
+      color: white;
+      font-size: 13px;
+      padding: 3px 10px;
+      border-radius: 9999px;
+      font-weight: 600;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px;
+      margin: 18px 0;
+    }
+    .spoken {
+      border-left: 4px solid #10b981;
+      background: rgba(16, 185, 129, 0.08);
+      padding: 16px;
+      border-radius: 0 8px 8px 0;
+      font-style: italic;
+      color: #e2e8f0;
+      margin: 12px 0;
+    }
+    .action {
+      border-left: 4px solid #f59e0b;
+      background: rgba(245, 158, 11, 0.08);
+      padding: 14px;
+      border-radius: 0 8px 8px 0;
+      margin: 12px 0;
+    }
+    .prompt-box {
+      background: #090d16;
+      border: 1px solid #22d3ee;
+      color: #38bdf8;
+      font-family: monospace;
+      padding: 12px 16px;
+      border-radius: 6px;
+      font-size: 15px;
+      margin: 10px 0;
+      user-select: all;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 10px 14px;
+      text-align: left;
+    }
+    th {
+      background: #1e293b;
+      color: var(--accent);
+    }
+    .timer {
+      color: #fbbf24;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 Agentforce Coworker: Live Webinar Demo Playbook</h1>
+    <p style="color: var(--text-muted); font-size: 16px;">
+      <strong>Target Duration:</strong> 7 to 10 Minutes &nbsp;|&nbsp; 
+      <strong>Presenter:</strong> Live Screen Walkthrough &nbsp;|&nbsp; 
+      <strong>Environment:</strong> Salesforce Developer Org with Agentforce Coworker
+    </p>
+
+    <div class="card">
+      <h3 style="margin-top:0; color:#38bdf8;">⏱️ Quick Agenda & Timing Map</h3>
+      <table>
+        <tr><th>Time</th><th>Act</th><th>Screen Focus</th></tr>
+        <tr><td><span class="timer">00:00 - 01:30</span></td><td>Act 1: The Hook</td><td>Lightning Home Page (The tab-fatigue problem)</td></tr>
+        <tr><td><span class="timer">01:30 - 03:15</span></td><td>Act 2: Behind-The-Scenes Setup</td><td>Setup ➔ User Permissions & Agentforce Coworker Toggle</td></tr>
+        <tr><td><span class="timer">03:15 - 04:00</span></td><td>Act 3: The Big Reveal</td><td>Hovering on Global Search ➔ Clicking the <strong>[✨ Ask]</strong> Button</td></tr>
+        <tr><td><span class="timer">04:00 - 07:15</span></td><td>Act 4: Live Superpowers</td><td>Find Mode (Semantic RAG), Catch Up Mode & Plan & Act Mode</td></tr>
+        <tr><td><span class="timer">07:15 - 08:30</span></td><td>Act 5: Enterprise Wrap-Up</td><td>Summary, Trust Layer, Q&A Open</td></tr>
+      </table>
+    </div>
+
+    <h2><span class="badge">ACT 1</span> The Hook & The Problem <span class="timer" style="font-size:16px;">(00:00 – 01:30)</span></h2>
+    <div class="card">
+      <div class="action">
+        <strong>🖥️ What to show:</strong> Salesforce Lightning Home Page. Have a clean, uncluttered layout.
+      </div>
+      <div class="spoken">
+        "Hello everyone, and welcome!<br><br>
+        Let me start with a quick question: <strong>How many browser tabs do you typically keep open when working inside Salesforce?</strong><br><br>
+        If you're like most sales reps, support managers, or account executives, you're constantly 'swivel-chairing'—jumping between 15 different tabs, account records, chatter feeds, emails, and spreadsheets just to answer basic questions like: <em>'What is the latest status on this customer?'</em> or <em>'What high-priority issues happened overnight?'</em><br><br>
+        Today, we are NOT talking about another isolated chatbot sitting in a corner of your screen. We are talking about <strong>Agentforce Coworker</strong>—Salesforce's native, conversational AI teammate embedded directly into the search bar you already use every day.<br><br>
+        In this demo, I'll show you how easy it is to enable in Setup, how the new <strong>'Ask'</strong> button transforms your interface, and three real-world superpowers you can use immediately."
+      </div>
+    </div>
+
+    <h2><span class="badge">ACT 2</span> Behind The Scenes: 2-Minute Setup <span class="timer" style="font-size:16px;">(01:30 – 03:15)</span></h2>
+    <div class="card">
+      <div class="action">
+        <strong>🖥️ Action:</strong> Click the Gear Icon ⚙️ in the top right header ➔ select <strong>Setup</strong>.
+      </div>
+
+      <h4 style="color:#38bdf8;">Step 1: User Security & Permission Set Group</h4>
+      <p>In Quick Find, type <code>Users</code> ➔ click your user ➔ scroll down to <strong>Permission Set Group Assignments</strong>.</p>
+      <div class="spoken">
+        "Everything begins with enterprise security. By assigning the <strong>Agentforce Coworker User</strong> permission set group, the AI instantly inherits standard Profiles, Field-Level Security (FLS), and Sharing Rules.<br><br>
+        If a user doesn't have permission to see an Opportunity amount or a private record in standard Salesforce, the AI will never read or reveal it. There is zero risk of data leakage."
+      </div>
+
+      <h4 style="color:#38bdf8;">Step 2: The Agentforce Coworker Setup Page</h4>
+      <p>In Quick Find, type <code>Agentforce Coworker</code> ➔ click <strong>Get Started with Agentforce Coworker</strong>.</p>
+      <div class="spoken">
+        "Look at how simple enablement is. From Setup, you simply search for 'Agentforce Coworker' and open this page.<br><br>
+        When you flip this toggle to <strong>On</strong>, Salesforce automatically provisions the underlying Search Agent engine, connects your Data Cloud index, and enables conversational search for all assigned users. No complex coding, no custom integrations."
+      </div>
+    </div>
+
+    <h2><span class="badge">ACT 3</span> The Big Reveal: The [✨ Ask] Button <span class="timer" style="font-size:16px;">(03:15 – 04:00)</span></h2>
+    <div class="card">
+      <div class="action">
+        <strong>🖥️ Action:</strong> Navigate back to the standard Sales or Service App. Slowly hover your mouse over the top <strong>Global Search bar</strong>.
+      </div>
+      <div class="spoken">
+        "Now, let's look at the magic from an end-user's perspective.<br><br>
+        Notice right here, right beside the Global Search bar, we have a brand new button: <strong>'Ask'</strong> with an AI wand icon.<br><br>
+        When an employee clicks <strong>'Ask'</strong>, instead of getting a static list of 50 blue record links, it opens this clean, modern conversational canvas. It feels just as intuitive as ChatGPT or Gemini, but it is <strong>natively grounded</strong> in your enterprise CRM records, customer history, and Data Cloud."
+      </div>
+    </div>
+
+    <h2><span class="badge">ACT 4</span> The 3 Live Superpowers <span class="timer" style="font-size:16px;">(04:00 – 07:15)</span></h2>
+    
+    <div class="card">
+      <h3 style="color:#38bdf8;">Superpower 1: "FIND" Mode (Semantic Search with Citations)</h3>
+      <p>Click the prompt input box and paste:</p>
+      <div class="prompt-box">What are our top merchant accounts in California and what is their current status?</div>
+      <div class="spoken">
+        "Watch this first power: <strong>Semantic Find</strong>.<br><br>
+        I didn't type rigid search keywords. I asked a natural question.<br><br>
+        Coworker analyzed the query, searched across our CRM records, and synthesized a structured answer. And look closely: <strong>every single account has a clickable citation pill</strong>. I can click right on this account name to inspect the real record, giving us zero hallucination and 100% auditability."
+      </div>
+    </div>
+
+    <div class="card">
+      <h3 style="color:#38bdf8;">Superpower 2: "CATCH UP" Mode (Instant Workspace Briefing)</h3>
+      <p>Paste the second prompt:</p>
+      <div class="prompt-box">Catch me up on high-priority cases and escalations logged this week.</div>
+      <div class="spoken">
+        "Here is the second superpower: <strong>Catch Up</strong>.<br><br>
+        Imagine you just returned from PTO or stepped out of meetings. Instead of digging through 40 unread Chatter notifications and emails, you type 'Catch me up'.<br><br>
+        Coworker scans recent changes across records you follow or own, categorizes critical blockers, and tells you exactly what requires immediate action today."
+      </div>
+    </div>
+
+    <div class="card">
+      <h3 style="color:#38bdf8;">Superpower 3: "PLAN & ACT" Mode (Human-in-the-Loop Action)</h3>
+      <p>Paste the third prompt:</p>
+      <div class="prompt-box">Draft a follow-up email to the account owner of our top escalated merchant proposing a resolution and a 10% promotional credit.</div>
+      <div class="spoken">
+        "Finally, the third superpower: <strong>Plan and Act</strong>.<br><br>
+        Coworker doesn't just read information—it can orchestrate tasks. Here, it generated a professional resolution email tailored to the specific case history.<br><br>
+        Notice the key enterprise design pattern: <strong>Human-in-the-Loop</strong>. Coworker did not blindly send this email or write to the database. It presented an interactive preview card. I can review the text, tweak the discount amount, and click Approve. Complete automation with zero loss of control."
+      </div>
+    </div>
+
+    <h2><span class="badge">ACT 5</span> Enterprise Wrap-Up & Q&A <span class="timer" style="font-size:16px;">(07:15 – 08:30)</span></h2>
+    <div class="card">
+      <div class="spoken">
+        "To bring it all together, remember these three core pillars of Agentforce Coworker:<br><br>
+        <strong>1. Zero Adoption Friction:</strong> Your users don't need training on a new tool. It sits right in the Global Search bar they already use daily.<br>
+        <strong>2. Complete Data Governance:</strong> Fully inherits your existing Roles, Sharing Rules, and Field-Level Security.<br>
+        <strong>3. The Einstein Trust Layer:</strong> Enterprise-grade Zero Data Retention—your private customer data is never stored, logged, or used to train external LLMs.<br><br>
+        Anyone can sign up for a free developer environment, flip the toggle in Setup, and start empowering their team today.<br><br>
+        Thank you so much for your time, and let's open the floor to questions!"
+      </div>
+    </div>
+
+    <div class="card" style="border-color:#38bdf8;">
+      <h3 style="margin-top:0; color:#38bdf8;">📋 Copy-Paste Prompts for Your Secondary Monitor</h3>
+      <p>Keep these ready on a sticky note during your webinar:</p>
+      <div class="prompt-box">1. What are our top merchant accounts in California and what is their current status?</div>
+      <div class="prompt-box">2. Catch me up on high-priority cases and escalations logged this week.</div>
+      <div class="prompt-box">3. Draft a follow-up email to the account owner of our top escalated merchant proposing a resolution and a 10% promotional credit.</div>
+    </div>
+  </div>
+</body>
+</html>
+
