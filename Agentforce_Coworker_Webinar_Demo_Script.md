@@ -96,7 +96,7 @@
 
 #### Copy-Paste Prompt
 ```text
-What are our top merchant accounts in California and what is their current status?
+What are our top merchant accounts in Dallas, Texas and what is their current status?
 ```
 
 #### What to Highlight
@@ -106,7 +106,7 @@ What are our top merchant accounts in California and what is their current statu
 #### Spoken Script
 > *"Watch this first power: **Semantic Find**.
 > 
-> I didn't type keywords like 'Account California status'. I asked a natural question.
+> I didn't type keywords like 'Account Dallas Texas status'. I asked a natural question.
 > 
 > Coworker analyzed the query, searched across our CRM records, and synthesized a structured answer. And look closely: **every claim has a clickable citation pill**. I can click right on this account name to inspect the real record, meaning zero hallucination and 100% auditability."*
 
@@ -211,6 +211,6 @@ Draft a follow-up email to the account owner of our top escalated merchant propo
 
 Keep these 3 lines open in a Notepad window on your secondary monitor:
 
-1. `What are our top merchant accounts in California and what is their current status?`
+1. `What are our top merchant accounts in Dallas, Texas and what is their current status?`
 2. `Catch me up on high-priority cases and escalations logged this week.`
 3. `Draft a follow-up email to the account owner of our top escalated merchant proposing a resolution and a 10% promotional credit.`
