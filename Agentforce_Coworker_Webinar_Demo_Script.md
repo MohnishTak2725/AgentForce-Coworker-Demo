@@ -16,6 +16,7 @@
 │  04:00 - 07:00  │ ACT 4: The 3 Live Superpowers (Find, Catch Up, Act)  │
 │  07:00 - 08:15  │ ACT 5: Boundaries & Limitations in Plain English     │
 │  08:15 - 09:30  │ ACT 6: Enterprise Governance & Wrap-up / Q&A         │
+│  Bonus Section  │ Webinar Q&A: Pricing & Commercials Breakdown         │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -180,6 +181,29 @@ Draft a follow-up email to the account owner of our top escalated merchant propo
 > Anyone can sign up for a free developer environment, flip the toggle in Setup, and start empowering their team today.
 > 
 > Thank you so much for your time, and let's open the floor to questions!"*
+
+---
+
+## Webinar Q&A Reference: Pricing & Commercials
+
+### 💰 Spoken Answer for Webinar Attendees:
+> *"Great question! Salesforce designed Agentforce Coworker with predictable, flat-rate employee pricing:
+> 
+> - **It is priced at $50 per user per month** (billed annually).
+> 
+> Unlike customer-facing bots that charge $2 per conversation or consume variable credits, the Coworker license gives your employees **unlimited conversational search and catch-up queries** without fear of surprise credit overages. It also includes bundled enterprise data indexing (around 30 MB per user/month).
+> 
+> If your organization also needs specialized tools like the autonomous Sales SDR or Sales Coach, Salesforce offers full employee add-ons at $125 per user, but for everyday Coworker search and workspace assistance, it starts at **$50 per user per month**."*
+
+### Commercial Pricing Table
+
+| Tier / License | Cost | Coverage |
+| :--- | :--- | :--- |
+| **Agentforce Coworker** | **$50 / user / month** | Flat, unmetered conversational search, workspace catch-up, and bundled file indexing. |
+| **Agentforce Base User** | $5 / user / month | Entry tier; usage metered against Flex Credits. |
+| **Full Employee Add-on** | $125 / user / month | Unmetered specialized agents (SDR, Sales Coach, Service Assistant). |
+| **Industries Add-on** | $150 / user / month | Specialized agents for Health, Financial Services, Public Sector. |
+| **Customer-Facing Bots** | $2 / conversation | Autonomous external service agents resolving customer cases. |
 
 ---
 
