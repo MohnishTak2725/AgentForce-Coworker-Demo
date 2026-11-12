@@ -106,7 +106,7 @@
   <div class="container">
     <h1>🚀 Agentforce Coworker: Live Webinar Demo Playbook</h1>
     <p style="color: var(--text-muted); font-size: 16px;">
-      <strong>Target Duration:</strong> 7 to 10 Minutes &nbsp;|&nbsp; 
+      <strong>Target Duration:</strong> 8 to 10 Minutes &nbsp;|&nbsp; 
       <strong>Presenter:</strong> Live Screen Walkthrough &nbsp;|&nbsp; 
       <strong>Environment:</strong> Salesforce Developer Org with Agentforce Coworker
     </p>
@@ -118,8 +118,9 @@
         <tr><td><span class="timer">00:00 - 01:30</span></td><td>Act 1: The Hook</td><td>Lightning Home Page (The tab-fatigue problem)</td></tr>
         <tr><td><span class="timer">01:30 - 03:15</span></td><td>Act 2: Behind-The-Scenes Setup</td><td>Setup ➔ User Permissions & Agentforce Coworker Toggle</td></tr>
         <tr><td><span class="timer">03:15 - 04:00</span></td><td>Act 3: The Big Reveal</td><td>Hovering on Global Search ➔ Clicking the <strong>[✨ Ask]</strong> Button</td></tr>
-        <tr><td><span class="timer">04:00 - 07:15</span></td><td>Act 4: Live Superpowers</td><td>Find Mode (Semantic RAG), Catch Up Mode & Plan & Act Mode</td></tr>
-        <tr><td><span class="timer">07:15 - 08:30</span></td><td>Act 5: Enterprise Wrap-Up</td><td>Summary, Trust Layer, Q&A Open</td></tr>
+        <tr><td><span class="timer">04:00 - 07:00</span></td><td>Act 4: Live Superpowers</td><td>Find Mode (Semantic RAG), Catch Up Mode & Plan & Act Mode</td></tr>
+        <tr><td><span class="timer">07:00 - 08:15</span></td><td>Act 5: Boundaries & Limitations</td><td>Explaining Real-World Limits as Enterprise Guardrails</td></tr>
+        <tr><td><span class="timer">08:15 - 09:30</span></td><td>Act 6: Enterprise Wrap-Up</td><td>Summary, Trust Layer, Q&A Open</td></tr>
       </table>
     </div>
 
@@ -170,7 +171,7 @@
       </div>
     </div>
 
-    <h2><span class="badge">ACT 4</span> The 3 Live Superpowers <span class="timer" style="font-size:16px;">(04:00 – 07:15)</span></h2>
+    <h2><span class="badge">ACT 4</span> The 3 Live Superpowers <span class="timer" style="font-size:16px;">(04:00 – 07:00)</span></h2>
     
     <div class="card">
       <h3 style="color:#38bdf8;">Superpower 1: "FIND" Mode (Semantic Search with Citations)</h3>
@@ -205,7 +206,22 @@
       </div>
     </div>
 
-    <h2><span class="badge">ACT 5</span> Enterprise Wrap-Up & Q&A <span class="timer" style="font-size:16px;">(07:15 – 08:30)</span></h2>
+    <h2><span class="badge">ACT 5</span> Boundaries & Limitations in Plain English <span class="timer" style="font-size:16px;">(07:00 – 08:15)</span></h2>
+    <div class="card">
+      <div class="action">
+        <strong>🎯 Presentation Focus:</strong> Proactively address enterprise boundaries as security and governance guardrails.
+      </div>
+      <div class="spoken">
+        "Now, before we open for Q&A, a question that every enterprise architect and executive in the room is wondering: <em>'What are the real-world boundaries, limitations, and guardrails we need to know about?'</em><br><br>
+        Let me share four key considerations in plain language:<br><br>
+        <strong>1. Single-Seat Developer Limit:</strong> In free trial or developer environments like the one I'm demonstrating today, Salesforce allocates strictly <strong>one user license</strong> and one admin setup seat. It is designed for 1-to-1 evaluation. In full production, you license seats across your teams.<br><br>
+        <strong>2. The Data Cloud Backbone:</strong> Coworker doesn't operate in a vacuum—it requires <strong>Data Cloud</strong> running behind the scenes. Think of Data Cloud as the AI's long-term memory and indexing engine; without it, Coworker cannot ground its answers across your CRM and enterprise documents.<br><br>
+        <strong>3. Document & Sync Boundaries:</strong> While Coworker can search external files from SharePoint or Google Drive, documents larger than <strong>75 megabytes</strong> are not indexed. Also, external documents sync on a scheduled cadence (typically hourly)—so if you edit a Word doc in SharePoint, allow a little sync time before expecting Coworker to find the update.<br><br>
+        <strong>4. Strict Security Mirroring:</strong> Coworker never peeks around corners. If a record or field is restricted from a user by your Sharing Rules or Field-Level Security, Coworker will state that no information was found. It respects your existing security model 100%."
+      </div>
+    </div>
+
+    <h2><span class="badge">ACT 6</span> Enterprise Wrap-Up & Q&A <span class="timer" style="font-size:16px;">(08:15 – 09:30)</span></h2>
     <div class="card">
       <div class="spoken">
         "To bring it all together, remember these three core pillars of Agentforce Coworker:<br><br>
@@ -227,4 +243,3 @@
   </div>
 </body>
 </html>
-
