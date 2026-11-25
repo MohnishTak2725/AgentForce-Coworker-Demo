@@ -126,15 +126,15 @@ Draft a follow-up email to the account owner of our top escalated merchant propo
 
 ---
 
-## ACT 4: Client Impact & Real-World Business Examples (06:00 – 07:45)
-
-*(Note for Presenter: Customize this section with 1–2 concrete Zordial client wins where permissible, or walk through these high-impact enterprise adoption scenarios.)*
+## ACT 4: Target Business Use Cases & How Zordial Accelerates Readiness (06:00 – 07:45)
 
 ### Spoken Script
-> *"Across our client engagements at Zordial Technologies, we see organizations unlocking measurable business outcomes in three practical ways:*
+> *"Since Salesforce only recently launched Agentforce Coworker broadly in late 2026, most executives ask: **'Where can we apply this first for the fastest business return?'**
 >
-> *1. **Protecting Key Renewals & Revenue:** For B2B account teams managing complex multi-year contracts, we configure Coworker to pull open service escalations alongside renewal dates—so account directors never walk blind into a quarterly business review.*
-> *2. **Accelerating New-Hire Productivity:** High turnover and distributed teams make onboarding expensive. By grounding Coworker in historical case resolutions and approved playbooks, new reps ramp up in weeks instead of months.*
+> *Because Coworker runs directly on top of the CRM workflows, security rules, and data foundations Zordial Technologies already builds for enterprise clients every day, here are three immediate high-impact use cases we help organizations target first:*
+>
+> *1. **Protecting Key Renewals & Revenue:** Configuring Coworker to pull open service escalations alongside renewal dates—so account directors never walk blind into a quarterly business review.*
+> *2. **Accelerating New-Hire Productivity:** Grounding Coworker in historical case resolutions and approved playbooks so distributed teams ramp up in weeks instead of months.*
 > *3. **Connecting Custom Business Workflows Without Chaos:** Rather than letting AI improvise changes, Zordial connects Coworker strictly to your company’s validated approval flows—so teams can update customer records or log follow-ups cleanly with zero compromise on data quality."*
 
 ---
