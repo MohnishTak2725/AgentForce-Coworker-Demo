@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Agentforce Coworker - Live Webinar Demo Playbook</title>
+  <title>Agentforce Coworker - C-Level Webinar Demo Playbook</title>
   <style>
     :root {
       --bg: #0f172a;
@@ -14,6 +14,7 @@
       --text-muted: #94a3b8;
       --border: #334155;
       --pill: #0284c7;
+      --purple: #a855f7;
     }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -42,6 +43,14 @@
     }
     .badge {
       background: var(--pill);
+      color: white;
+      font-size: 13px;
+      padding: 3px 10px;
+      border-radius: 9999px;
+      font-weight: 600;
+    }
+    .badge-biz {
+      background: var(--purple);
       color: white;
       font-size: 13px;
       padding: 3px 10px;
@@ -82,6 +91,18 @@
       margin: 10px 0;
       user-select: all;
     }
+    .tab-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-top: 12px;
+    }
+    .tab-box {
+      background: #0f172a;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px;
+    }
     table {
       width: 100%;
       border-collapse: collapse;
@@ -104,138 +125,129 @@
 </head>
 <body>
   <div class="container">
-    <h1>🚀 Agentforce Coworker: Live Webinar Demo Playbook</h1>
+    <h1>🚀 Agentforce Coworker: C-Level Webinar Demo Playbook</h1>
     <p style="color: var(--text-muted); font-size: 16px;">
-      <strong>Target Duration:</strong> 8 to 10 Minutes &nbsp;|&nbsp; 
-      <strong>Presenter:</strong> Live Screen Walkthrough &nbsp;|&nbsp; 
-      <strong>Environment:</strong> Salesforce Developer Org with Agentforce Coworker
+      <strong>Target Duration:</strong> 8 to 9 Minutes &nbsp;|&nbsp;
+      <strong>Audience:</strong> C-Level Decision Makers &amp; Business Leaders &nbsp;|&nbsp;
+      <strong>Format:</strong> 2-Tab Comparison (No Admin Setup)
     </p>
 
+    <div class="card" style="border-color: #f59e0b;">
+      <h3 style="margin-top:0; color:#fbbf24;">🖥️ Pre-Demo Chrome Browser Setup (2 Tabs Open)</h3>
+      <div class="tab-grid">
+        <div class="tab-box">
+          <strong style="color:#f87171;">Tab 1: Status Quo (Standard Org)</strong><br>
+          <span style="font-size:14px; color:#cbd5e1;">Standard Lightning Org where Coworker is <strong>not</strong> enabled (no <strong>[✨ Ask]</strong> button). Demonstrates traditional manual search &amp; screen switching.</span>
+        </div>
+        <div class="tab-box">
+          <strong style="color:#34d399;">Tab 2: Enabled (Coworker Active)</strong><br>
+          <span style="font-size:14px; color:#cbd5e1;">Same familiar Lightning UI, now displaying the <strong>[✨ Ask]</strong> button beside Global Search. Focuses 100% on how it works &amp; business outcomes.</span>
+        </div>
+      </div>
+    </div>
+
     <div class="card">
-      <h3 style="margin-top:0; color:#38bdf8;">⏱️ Quick Agenda & Timing Map</h3>
+      <h3 style="margin-top:0; color:#38bdf8;">⏱️ Quick Agenda &amp; Timing Map</h3>
       <table>
-        <tr><th>Time</th><th>Act</th><th>Screen Focus</th></tr>
-        <tr><td><span class="timer">00:00 - 01:30</span></td><td>Act 1: The Hook</td><td>Lightning Home Page (The tab-fatigue problem)</td></tr>
-        <tr><td><span class="timer">01:30 - 03:15</span></td><td>Act 2: Behind-The-Scenes Setup</td><td>Setup ➔ User Permissions & Agentforce Coworker Toggle</td></tr>
-        <tr><td><span class="timer">03:15 - 04:00</span></td><td>Act 3: The Big Reveal</td><td>Hovering on Global Search ➔ Clicking the <strong>[✨ Ask]</strong> Button</td></tr>
-        <tr><td><span class="timer">04:00 - 07:00</span></td><td>Act 4: Live Superpowers</td><td>Find Mode (Semantic RAG), Catch Up Mode & Plan & Act Mode</td></tr>
-        <tr><td><span class="timer">07:00 - 08:15</span></td><td>Act 5: Boundaries & Limitations</td><td>Explaining Real-World Limits as Enterprise Guardrails</td></tr>
-        <tr><td><span class="timer">08:15 - 09:30</span></td><td>Act 6: Enterprise Wrap-Up</td><td>Summary, Trust Layer, Q&A Open</td></tr>
+        <tr><th>Time</th><th>Act</th><th>Screen Focus &amp; Business Narrative</th></tr>
+        <tr><td><span class="timer">00:00 - 01:30</span></td><td>Act 1: The Business Problem</td><td>Chrome Tab 1 ➔ Cost of screen switching &amp; manual search</td></tr>
+        <tr><td><span class="timer">01:30 - 03:00</span></td><td>Act 2: How Coworker Works</td><td>Chrome Tab 2 ➔ Clicking <strong>[✨ Ask]</strong> &amp; explaining the 3-step engine in plain English</td></tr>
+        <tr><td><span class="timer">03:00 - 06:00</span></td><td>Act 3: End-User Superpowers</td><td>Find, Catch Up &amp; Plan &amp; Act with human-in-the-loop control</td></tr>
+        <tr><td><span class="timer">06:00 - 07:45</span></td><td>Act 4: Client Impact &amp; Expertise</td><td>Real-world business outcomes &amp; Zordial client implementation examples</td></tr>
+        <tr><td><span class="timer">07:45 - 09:00</span></td><td>Act 5: Trust Guardrails &amp; Q&amp;A</td><td>Enterprise boundaries, privacy &amp; handoff to Sandeep Singhal</td></tr>
       </table>
     </div>
 
-    <h2><span class="badge">ACT 1</span> The Hook & The Problem <span class="timer" style="font-size:16px;">(00:00 – 01:30)</span></h2>
+    <h2><span class="badge">ACT 1</span> The Business Problem: Cost of Screen Switching <span class="timer" style="font-size:16px;">(00:00 – 01:30)</span></h2>
     <div class="card">
       <div class="action">
-        <strong>🖥️ What to show:</strong> Salesforce Lightning Home Page. Have a clean, uncluttered layout.
+        <strong>🖥️ Chrome Tab 1 (Without Ask Button):</strong> Start on the standard Lightning Home Page. Type <code>Dallas</code> into standard Global Search and hit Enter to display static record lists.
       </div>
       <div class="spoken">
-        "Hello everyone, and welcome!<br><br>
-        Let me start with a quick question: <strong>How many browser tabs do you typically keep open when working inside Salesforce?</strong><br><br>
-        If you're like most sales reps, support managers, or account executives, you're constantly 'swivel-chairing'—jumping between 15 different tabs, account records, chatter feeds, emails, and spreadsheets just to answer basic questions like: <em>'What is the latest status on this customer?'</em> or <em>'What high-priority issues happened overnight?'</em><br><br>
-        Today, we are NOT talking about another isolated chatbot sitting in a corner of your screen. We are talking about <strong>Agentforce Coworker</strong>—Salesforce's native, conversational AI teammate embedded directly into the search bar you already use every day.<br><br>
-        In this demo, I'll show you how easy it is to enable in Setup, how the new <strong>'Ask'</strong> button transforms your interface, and three real-world superpowers you can use immediately."
+        "Hello everyone, and thank you for joining us today.<br><br>
+        Before we talk about AI, let’s talk about a daily reality inside almost every enterprise we work with across the US and UK.<br><br>
+        Right now, you’re looking at a standard Salesforce environment—the exact screen your sales leaders, account executives, and service managers use every single day. If an executive wants an answer before a client call—like <em>'Which of our key Dallas accounts need attention today?'</em>—look at what happens when we search.<br><br>
+        We get a list of disconnected records. Now your team has to open 10 to 15 different browser tabs—Accounts, Cases, Chatter notes, emails, and files—just to piece together one clear answer. In high-wage enterprise teams, employees lose <strong>25% to 35% of their workday</strong> to this constant screen switching and manual searching.<br><br>
+        That isn't a technology gap—that is a massive productivity tax."
       </div>
     </div>
 
-    <h2><span class="badge">ACT 2</span> Behind The Scenes: 2-Minute Setup <span class="timer" style="font-size:16px;">(01:30 – 03:15)</span></h2>
+    <h2><span class="badge">ACT 2</span> How Agentforce Coworker Actually Works <span class="timer" style="font-size:16px;">(01:30 – 03:00)</span></h2>
     <div class="card">
       <div class="action">
-        <strong>🖥️ Action:</strong> Click the Gear Icon ⚙️ in the top right header ➔ select <strong>Setup</strong>.
+        <strong>🖥️ Chrome Tab 2 (With [✨ Ask] Button):</strong> Switch directly to Tab 2. Hover over the <strong>[✨ Ask]</strong> button beside Global Search and click it to launch the conversational workspace.
       </div>
-
-      <h4 style="color:#38bdf8;">Step 1: User Security & Permission Set Group</h4>
-      <p>In Quick Find, type <code>Users</code> ➔ click your user ➔ scroll down to <strong>Permission Set Group Assignments</strong>.</p>
       <div class="spoken">
-        "Everything begins with enterprise security. By assigning the <strong>Agentforce Coworker User</strong> permission set group, the AI instantly inherits standard Profiles, Field-Level Security (FLS), and Sharing Rules.<br><br>
-        If a user doesn't have permission to see an Opportunity amount or a private record in standard Salesforce, the AI will never read or reveal it. There is zero risk of data leakage."
-      </div>
-
-      <h4 style="color:#38bdf8;">Step 2: The Agentforce Coworker Setup Page</h4>
-      <p>In Quick Find, type <code>Agentforce Coworker</code> ➔ click <strong>Get Started with Agentforce Coworker</strong>.</p>
-      <div class="spoken">
-        "Look at how simple enablement is. From Setup, you simply search for 'Agentforce Coworker' and open this page.<br><br>
-        When you flip this toggle to <strong>On</strong>, Salesforce automatically provisions the underlying Search Agent engine, connects your Data Cloud index, and enables conversational search for all assigned users. No complex coding, no custom integrations."
+        "Now look at <strong>this</strong> tab. Same Salesforce workspace your teams already know—zero new software to install, zero retraining required. The only difference is one button right next to Search: <strong>[✨ Ask]</strong>.<br><br>
+        So, how does Agentforce Coworker actually work behind the scenes for your business? Think of it in three simple steps—not as a generic chatbot, but as a trusted digital teammate:<br><br>
+        <strong>1. It Understands Business Language:</strong> Your team doesn't need rigid search terms or complex reports. They ask questions the same way they’d ask a senior colleague.<br><br>
+        <strong>2. It Connects Your Full Business Memory:</strong> Behind the scenes, Coworker bridges structured CRM data (accounts, pipeline, service cases) with unstructured context—like call notes, emails, and knowledge documents—synthesizing one clear brief.<br><br>
+        <strong>3. It Operates Strictly Inside Your Rules:</strong> Unlike public AI tools, Coworker never leaks data or breaks governance. It automatically inherits each employee's existing Salesforce permissions, so a rep only ever sees what they are already authorized to view."
       </div>
     </div>
 
-    <h2><span class="badge">ACT 3</span> The Big Reveal: The [✨ Ask] Button <span class="timer" style="font-size:16px;">(03:15 – 04:00)</span></h2>
-    <div class="card">
-      <div class="action">
-        <strong>🖥️ Action:</strong> Navigate back to the standard Sales or Service App. Slowly hover your mouse over the top <strong>Global Search bar</strong>.
-      </div>
-      <div class="spoken">
-        "Now, let's look at the magic from an end-user's perspective.<br><br>
-        Notice right here, right beside the Global Search bar, we have a brand new button: <strong>'Ask'</strong> with an AI wand icon.<br><br>
-        When an employee clicks <strong>'Ask'</strong>, instead of getting a static list of 50 blue record links, it opens this clean, modern conversational canvas. It feels just as intuitive as ChatGPT or Gemini, but it is <strong>natively grounded</strong> in your enterprise CRM records, customer history, and Data Cloud."
-      </div>
-    </div>
+    <h2><span class="badge">ACT 3</span> End-User Superpowers &amp; Business Benefits <span class="timer" style="font-size:16px;">(03:00 – 06:00)</span></h2>
 
-    <h2><span class="badge">ACT 4</span> The 3 Live Superpowers <span class="timer" style="font-size:16px;">(04:00 – 07:00)</span></h2>
-    
     <div class="card">
-      <h3 style="color:#38bdf8;">Superpower 1: "FIND" Mode (Semantic Search with Citations)</h3>
-      <p>Click the prompt input box and paste:</p>
+      <h3 style="color:#38bdf8;">Feature 1: "FIND" — Decision Speed with Source Proof</h3>
+      <p>Paste prompt 1:</p>
       <div class="prompt-box">What are our top merchant accounts in Dallas, Texas and what is their current status?</div>
       <div class="spoken">
-        "Watch this first power: <strong>Semantic Find</strong>.<br><br>
-        I didn't type rigid search keywords like 'Account Dallas Texas status'. I asked a natural question.<br><br>
-        Coworker analyzed the query, searched across our CRM records, and synthesized a structured answer. And look closely: <strong>every single account has a clickable citation pill</strong>. I can click right on this account name to inspect the real record, giving us zero hallucination and 100% auditability."
+        "Let’s see what this looks like for an account leader preparing for a customer review.<br><br>
+        I ask in plain English: <em>'What are our top merchant accounts in Dallas, Texas and what is their current status?'</em><br><br>
+        In seconds—instead of opening 12 browser tabs—Coworker reads across our accounts and open activities and gives us a clean executive brief. More importantly for leadership: look at these <strong>clickable source citations</strong>. There is no guesswork and no AI black box. One click verifies the exact source record."
       </div>
     </div>
 
     <div class="card">
-      <h3 style="color:#38bdf8;">Superpower 2: "CATCH UP" Mode (Instant Workspace Briefing)</h3>
-      <p>Paste the second prompt:</p>
+      <h3 style="color:#38bdf8;">Feature 2: "CATCH UP" — Leadership &amp; Escalation Visibility</h3>
+      <p>Paste prompt 2:</p>
       <div class="prompt-box">Catch me up on high-priority cases and escalations logged this week.</div>
       <div class="spoken">
-        "Here is the second superpower: <strong>Catch Up</strong>.<br><br>
-        Imagine you just returned from PTO or stepped out of meetings. Instead of digging through 40 unread Chatter notifications and emails, you type 'Catch me up'.<br><br>
-        Coworker scans recent changes across records you follow or own, categorizes critical blockers, and tells you exactly what requires immediate action today."
+        "Second end-user capability: <strong>Instant Catch-Up</strong>.<br><br>
+        Think about a VP of Customer Success returning from travel, or a regional director walking into a Monday morning review. Normally, catching up takes an hour of chasing status updates across Slack, Teams, and email.<br><br>
+        With one prompt, Coworker scans high-priority cases and escalations logged this week, highlights what actually threatens customer retention, and surfaces where leadership needs to step in today."
       </div>
     </div>
 
     <div class="card">
-      <h3 style="color:#38bdf8;">Superpower 3: "PLAN & ACT" Mode (Human-in-the-Loop Action)</h3>
-      <p>Paste the third prompt:</p>
+      <h3 style="color:#38bdf8;">Feature 3: "PLAN &amp; ACT" — Faster Execution with Human Control</h3>
+      <p>Paste prompt 3:</p>
       <div class="prompt-box">Draft a follow-up email to the account owner of our top escalated merchant proposing a resolution and a 10% promotional credit.</div>
       <div class="spoken">
-        "Finally, the third superpower: <strong>Plan and Act</strong>.<br><br>
-        Coworker doesn't just read information—it can orchestrate tasks. Here, it generated a professional resolution email tailored to the specific case history.<br><br>
-        Notice the key enterprise design pattern: <strong>Human-in-the-Loop</strong>. Coworker did not blindly send this email or write to the database. It presented an interactive preview card. I can review the text, tweak the discount amount, and click Approve. Complete automation with zero loss of control."
+        "Third capability: <strong>Moving Work Forward Safely</strong>.<br><br>
+        Insights only create ROI when they turn into action. Here, Coworker not only summarized the top escalated merchant—it drafted a context-aware outreach proposal tailored to that exact issue.<br><br>
+        And here is why C-level leaders trust this design: <strong>Human-in-the-Loop control</strong>. Whether Coworker is drafting an executive follow-up or updating a customer contact record through your approved business workflows, it always stops to ask the employee for confirmation first. Speed without losing operational control."
       </div>
     </div>
 
-    <h2><span class="badge">ACT 5</span> Boundaries & Limitations in Plain English <span class="timer" style="font-size:16px;">(07:00 – 08:15)</span></h2>
-    <div class="card">
+    <h2><span class="badge-biz">ACT 4</span> Client Impact &amp; Real-World Business Examples <span class="timer" style="font-size:16px;">(06:00 – 07:45)</span></h2>
+    <div class="card" style="border-color: var(--purple);">
       <div class="action">
-        <strong>🎯 Presentation Focus:</strong> Proactively address enterprise boundaries as security and governance guardrails.
+        <strong>💼 Zordial Value Positioning:</strong> Highlight business outcomes and real client use cases (customize with 1–2 concrete client stories where appropriate).
       </div>
       <div class="spoken">
-        "Now, before we open for Q&A, a question that every enterprise architect and executive in the room is wondering: <em>'What are the real-world boundaries, limitations, and guardrails we need to know about?'</em><br><br>
-        Let me share four key considerations in plain language:<br><br>
-        <strong>1. Single-Seat Developer Limit:</strong> In free trial or developer environments like the one I'm demonstrating today, Salesforce allocates strictly <strong>one user license</strong> and one admin setup seat. It is designed for 1-to-1 evaluation. In full production, you license seats across your teams.<br><br>
-        <strong>2. The Data Cloud Backbone:</strong> Coworker doesn't operate in a vacuum—it requires <strong>Data Cloud</strong> running behind the scenes. Think of Data Cloud as the AI's long-term memory and indexing engine; without it, Coworker cannot ground its answers across your CRM and enterprise documents.<br><br>
-        <strong>3. Document & Sync Boundaries:</strong> While Coworker can search external files from SharePoint or Google Drive, documents larger than <strong>75 megabytes</strong> are not indexed. Also, external documents sync on a scheduled cadence (typically hourly)—so if you edit a Word doc in SharePoint, allow a little sync time before expecting Coworker to find the update.<br><br>
-        <strong>4. Strict Security Mirroring:</strong> Coworker never peeks around corners. If a record or field is restricted from a user by your Sharing Rules or Field-Level Security, Coworker will state that no information was found. It respects your existing security model 100%."
+        "Across our client engagements at Zordial Technologies, we see organizations unlocking measurable business outcomes in three practical ways:<br><br>
+        <strong>1. Protecting Key Renewals &amp; Revenue:</strong> For B2B account teams managing complex multi-year contracts, we configure Coworker to pull open service escalations alongside renewal dates—so account directors never walk blind into a quarterly business review.<br><br>
+        <strong>2. Accelerating New-Hire Productivity:</strong> High turnover and distributed teams make onboarding expensive. By grounding Coworker in historical case resolutions and approved playbooks, new reps ramp up in weeks instead of months.<br><br>
+        <strong>3. Connecting Custom Business Workflows Without Chaos:</strong> Rather than letting AI improvise changes, Zordial connects Coworker strictly to your company’s validated approval flows—so teams can update customer records or log follow-ups cleanly with zero compromise on data quality."
       </div>
     </div>
 
-    <h2><span class="badge">ACT 6</span> Enterprise Wrap-Up & Q&A <span class="timer" style="font-size:16px;">(08:15 – 09:30)</span></h2>
+    <h2><span class="badge">ACT 5</span> Executive Trust Guardrails &amp; Handoff <span class="timer" style="font-size:16px;">(07:45 – 09:00)</span></h2>
     <div class="card">
       <div class="spoken">
-        "To bring it all together, remember these three core pillars of Agentforce Coworker:<br><br>
-        <strong>1. Zero Adoption Friction:</strong> Your users don't need training on a new tool. It sits right in the Global Search bar they already use daily.<br>
-        <strong>2. Complete Data Governance:</strong> Fully inherits your existing Roles, Sharing Rules, and Field-Level Security.<br>
-        <strong>3. The Einstein Trust Layer:</strong> Enterprise-grade Zero Data Retention—your private customer data is never stored, logged, or used to train external LLMs.<br><br>
-        Anyone can sign up for a free developer environment, flip the toggle in Setup, and start empowering their team today.<br><br>
-        Thank you so much for your time, and let's open the floor to questions!"
+        "To wrap up, C-level leaders rightly ask what boundaries govern this in production. Three assurances make Agentforce Coworker enterprise-ready from day one:<br><br>
+        <strong>1. Zero Data Exposure Outside Your Rules:</strong> If a user cannot view sensitive financials or private records in Salesforce, Coworker will never reveal them.<br>
+        <strong>2. Privacy &amp; Zero Data Retention:</strong> Powered by the Einstein Trust Layer, your proprietary customer data is never stored or used to train external AI models.<br>
+        <strong>3. Governed Actions &amp; Clean Data:</strong> Coworker works hand-in-hand with your approved enterprise data sources and requires explicit user confirmation before committing changes.<br><br>
+        With that practical view of how Agentforce Coworker empowers teams every day, I’d like to invite <strong>Sandeep</strong> to share his executive perspective and kick off our Q&amp;A."
       </div>
     </div>
 
     <div class="card" style="border-color:#38bdf8;">
       <h3 style="margin-top:0; color:#38bdf8;">📋 Copy-Paste Prompts for Your Secondary Monitor</h3>
-      <p>Keep these ready on a sticky note during your webinar:</p>
+      <p>Keep these ready on a sticky note during your live demo:</p>
       <div class="prompt-box">1. What are our top merchant accounts in Dallas, Texas and what is their current status?</div>
       <div class="prompt-box">2. Catch me up on high-priority cases and escalations logged this week.</div>
       <div class="prompt-box">3. Draft a follow-up email to the account owner of our top escalated merchant proposing a resolution and a 10% promotional credit.</div>
