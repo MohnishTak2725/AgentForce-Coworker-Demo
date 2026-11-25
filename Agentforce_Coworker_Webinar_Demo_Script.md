@@ -152,6 +152,47 @@ Draft a follow-up email to the account owner of our top escalated merchant propo
 
 ---
 
+## 🎯 Post-Demo Executive Wrap-Up: How This Feature Transforms Daily Operations (Read-Out Script)
+
+### Spoken Read-Out Script (Deliver Aloud Post-Demo)
+> *"Now that you’ve seen Agentforce Coworker live in action, let’s ground this in tangible business reality.
+>
+> When business leaders look at AI, the number one question is always: **"This looks great in a demo, but how does this actually move the needle for my team on Monday morning?"**
+>
+> The answer comes down to one core shift: **transforming your CRM from a passive system of record into an active cognitive coworker.**
+>
+> Instead of highly paid account executives, support managers, and regional directors spending 25% of their day clicking through 15 tabs, running stale reports, and piecing together context manually—they now have an always-on digital teammate that synthesizes your entire enterprise memory in seconds. It allows them to focus 100% of their energy on high-value human relationships, strategic decisions, and closing deals.
+>
+> Let me give you four concrete examples of how organizations are putting this to work today:*
+
+### 4 Real-World Impact Scenarios:
+
+1. **Sales Reps & Account Directors (The 30-Second Pre-Call Brief):**
+   * *Before:* Spending 40 minutes searching open opportunities, billing history, and old chatter threads before a customer meeting.
+   * *With Coworker:* Asking *"Brief me on Edge Communications: active ARR, open support tickets, and last month’s executive meeting notes"* returns an instant verified summary.
+   * ⚡ **Impact:** Saves 3 to 4 hours per sales rep every single week.
+
+2. **Customer Success & Service Leaders (Proactive Churn & Escalation Interception):**
+   * *Before:* Customer escalations remain siloed inside support tickets until the account threatens cancellation at renewal time.
+   * *With Coworker:* A CS leader asks *"Catch me up on high-priority escalations with negative sentiment logged this week"*—catching retention threats days before they blow up.
+   * ⚡ **Impact:** Directly protects annual recurring revenue (ARR) and customer retention.
+
+3. **New-Hire Ramp & Knowledge Transfer (Halving Time-to-Productivity):**
+   * *Before:* New hires take 3 to 6 months learning where company tribal knowledge, historical deal structures, and SOPs are buried.
+   * *With Coworker:* The new employee has an expert mentor embedded in their search bar answering questions grounded strictly in validated internal playbooks.
+   * ⚡ **Impact:** Cuts new-hire onboarding ramp time by up to 50%.
+
+4. **Operations & CRM Data Hygiene (Closing the Action Loop Safely):**
+   * *Before:* Insights get discussed in meetings, but employees forget to log updates or follow-ups in Salesforce, causing dirty CRM data.
+   * *With Coworker:* "Plan & Act" proposes record updates and drafts outreach via human confirmation cards—maintaining pristine CRM audit trails with zero friction.
+   * ⚡ **Impact:** Flawless CRM data hygiene without extra administrative burden.
+
+> *"**The Bottom Line for Leadership:** If you have an organization of 100 enterprise knowledge workers, saving just 30 to 45 minutes a day from screen-switching and information hunting recaptures over **$500,000 to $750,000 in productive payroll capacity every year**.
+>
+> That is the real promise of Agentforce Coworker: not replacing people, but removing the administrative friction so your best talent can do their best work."*
+
+---
+
 ## Presenter Cheat-Sheet: Copy-Paste Prompts (Secondary Monitor)
 
 1. `What are our top merchant accounts in Dallas, Texas and what is their current status?`
